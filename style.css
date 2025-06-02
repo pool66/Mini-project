@@ -35,7 +35,8 @@
     position: absolute;
     width: 100%; 
     line-height: 60px;
-    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    height: 60px;
 }
 
 .sidebar_menu .logo a{
@@ -60,7 +61,6 @@
     line-height: 60px;
     position: absolute;
     left: 275px;
-    opacity: 0;
     cursor: pointer;
     transition:all 0.3s linear;
 }
@@ -102,11 +102,11 @@
     box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
 }
 
-.btn_one:hover{
+.btn_one:hover i{
     font-size: 40px;
 }
 
-.btn_two:hover{
+.btn_two:hover i{
     font-size: 30px;
 }
 
